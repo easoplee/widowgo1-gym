@@ -78,7 +78,7 @@ class RexWalkEnv(rex_gym_env.RexGymEnv):
     """
         super(RexWalkEnv,
               self).__init__(urdf_version=urdf_version,
-                             accurate_motor_model_enabled=True,
+                             accurate_motor_model_enabled=False,
                              motor_overheat_protection=True,
                              hard_reset=False,
                              motor_kp=motor_kp,
